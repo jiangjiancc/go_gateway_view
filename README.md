@@ -12,7 +12,7 @@
 
 - 首先git clone 本项目
 
-`git clone git@github.com:e421083458/gateway_demo.git`
+`git clone git@github.com:jiangjiancc/go_gateway.git`
 
 - 确保本地环境安装了Go 1.12+版本
 
@@ -36,7 +36,7 @@ go mod tidy
 
 - 首先git clone 本项目
 
-`git clone git@github.com:e421083458/go_gateway.git`
+`git clone git@github.com:jiangjiancc/go_gateway.git`
 
 
 - 确保本地环境安装了Go 1.12+版本
@@ -82,7 +82,7 @@ go run main.go -config=./conf/dev/ -endpoint server
 - 首先git clone 本项目
 
 ```
-git clone git@github.com:e421083458/go_gateway_view.git
+git clone git@github.com:jiangjiancc/go_gateway_view.git
 ```
 
 - 确保本地环境安装了nodejs

@@ -8,9 +8,9 @@ cd ../tmp_dir
 rm -rf .git
 rm -rf node_modules 
 mv README.md README_bak.md
-cat README_bak.md | awk '{gsub(/github.com\/e421083458\/gateway_demo\/tree/,"git.imooc.com/coding-436/gateway_demo/src"); print $0}' > README_bak2.md
+cat README_bak.md | awk '{gsub(/github.com\/jiangjiancc\/gateway_demo\/tree/,"git.imooc.com/coding-436/gateway_demo/src"); print $0}' > README_bak2.md
 cat README_bak2.md
-cat README_bak2.md | awk '{gsub(/github.com\/e421083458/,"git.imooc.com/coding-436"); print $0}' > README.md
+cat README_bak2.md | awk '{gsub(/github.com\/jiangjiancc/,"git.imooc.com/coding-436"); print $0}' > README.md
 cat README.md
 rm README_bak2.md
 rm README_bak.md
